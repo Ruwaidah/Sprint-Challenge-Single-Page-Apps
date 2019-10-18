@@ -37,3 +37,76 @@ main {
 header h1 {
   text-align: center;
 }
+
+.characterList, .EpisodesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.CharacterCard, .episodecard {
+  width: 40%;
+  background: white;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px;
+}
+p{
+  line-height: 0;
+  font-size: 25px;
+}
+input {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 25px;
+}
+
+.search-form {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.locations{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.locationcard {
+  width: 40%;
+  background: white;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding: 20px 30px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.active {
+  color: rgb(248, 242, 242);
+  background: gray;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+}
